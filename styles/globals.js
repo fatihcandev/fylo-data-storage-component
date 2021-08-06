@@ -5,6 +5,7 @@ export const globalStyles = global({
     padding: 0,
     margin: 0,
     fontFamily: 'Raleway, sans-serif',
+    fontSize: 14,
   },
 
   a: {
