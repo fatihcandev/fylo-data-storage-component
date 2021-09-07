@@ -20,51 +20,51 @@ export const { styled, getCssText, globalCss } = createStitches({
     xl: '(min-width: 1280px)',
   },
   utils: {
-    mt: config => value => ({
+    mt: value => ({
       marginTop: value,
     }),
-    mr: config => value => ({
+    mr: value => ({
       marginRight: value,
     }),
-    mb: config => value => ({
+    mb: value => ({
       marginBottom: value,
     }),
-    ml: config => value => ({
+    ml: value => ({
       marginLeft: value,
     }),
-    mx: config => value => ({
+    mx: value => ({
       marginLeft: value,
       marginRight: value,
     }),
-    my: config => value => ({
+    my: value => ({
       marginTop: value,
       marginBottom: value,
     }),
-    pt: config => value => ({
+    pt: value => ({
       paddingTop: value,
     }),
-    pr: config => value => ({
+    pr: value => ({
       paddingRight: value,
     }),
-    pb: config => value => ({
+    pb: value => ({
       paddingBottom: value,
     }),
-    pl: config => value => ({
+    pl: value => ({
       paddingLeft: value,
     }),
-    px: config => value => ({
+    px: value => ({
       paddingLeft: value,
       paddingRight: value,
     }),
-    py: config => value => ({
+    py: value => ({
       paddingTop: value,
       paddingBottom: value,
     }),
-    size: config => value => ({
+    size: value => ({
       width: value,
       height: value,
     }),
-    linearGradient: config => value => ({
+    linearGradient: value => ({
       backgroundImage: `linear-gradient(${value})`,
     }),
   },
