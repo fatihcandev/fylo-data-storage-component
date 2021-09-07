@@ -1,7 +1,6 @@
-// stitches.config.ts
-import { createCss } from '@stitches/react'
+import { createStitches } from '@stitches/react'
 
-export const { styled, getCssString, theme, global } = createCss({
+export const { styled, getCssText, globalCss } = createStitches({
   theme: {
     colors: {
       paleBlue: 'hsl(243, 100%, 93%)',

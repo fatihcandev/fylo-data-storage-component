@@ -16,14 +16,16 @@ export default function Home() {
           <Styles.ControlPanel>
             <Icon.Logo />
             <Styles.ControlPanelButtons>
-              {controlPanelButtons.map(({ icon }) => (
-                <Styles.ControlPanelButton>{icon}</Styles.ControlPanelButton>
+              {controlPanelButtons.map(({ icon }, idx) => (
+                <Styles.ControlPanelButton key={idx}>
+                  {icon}
+                </Styles.ControlPanelButton>
               ))}
             </Styles.ControlPanelButtons>
           </Styles.ControlPanel>
           <Styles.QuotaSection>
             <Styles.QuotaAlert>
-              You've used <strong>815 GB</strong> of your storage
+              You&apos;ve used <strong>815 GB</strong> of your storage
             </Styles.QuotaAlert>
             <Styles.QuotaUsedContainer>
               <Styles.QuotaUsedBarBg>
